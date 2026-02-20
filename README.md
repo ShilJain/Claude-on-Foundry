@@ -2,15 +2,7 @@
 
 Interactive React application showcasing Anthropic Claude capabilities via Azure AI Foundry.
 
-## Features
 
-| Feature | Description |
-|---------|-------------|
-| 💬 Chat Completion | Basic conversational AI with streaming response |
-| 🛠️ List Skills | Browse all Anthropic-managed skills (docx, pptx, pdf…) |
-| 📄 Generate Word Doc | Create .docx files using Claude's DOCX skill |
-| 📊 Generate PowerPoint | Create .pptx presentations using Claude's PPTX skill |
-| 📕 Generate PDF | Create .pdf documents using Claude's PDF skill |
 
 ## Quick Start
 
@@ -60,3 +52,4 @@ claude-demo/
 - **Backend** → Flask server with SSE streaming endpoints
 - **Frontend** → React app consuming SSE for real-time token display
 - Communication via **Server-Sent Events (SSE)** for live output streaming
+
